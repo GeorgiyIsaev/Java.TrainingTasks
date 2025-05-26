@@ -13,7 +13,7 @@ public class Test06_FileUtilsTest {
 
     @Test
     public void testNotFoundException(){
-        Assertions.assertThrows(FileNotFoundException.class, ()->{
+        Assertions.assertThrows(IOException.class, ()->{
             String text = "[ФАЙЛ НЕ НАЙДЕН!]";
             text = FileUtils.readText(Paths.get("Data\\testFile.txt_txt"));
             System.out.println(text);

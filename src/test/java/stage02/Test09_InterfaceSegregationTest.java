@@ -18,6 +18,7 @@ public class Test09_InterfaceSegregationTest {
 
     @Test
     public void testMain() {
+        setUp("consoleInput");
         Test09_InterfaceSegregation.testInterfaceSegregation();
     }
 
