@@ -4,7 +4,7 @@ public class Rectangle extends Figure implements IMovable {
     private static int counter;
     private double width;
     private double height;
-    public Rectangle(){
+    Rectangle(){
         this.height = 1;
         this.width = 1;
         counter++;
