@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Task06_15_Rectangle {
     public static void main(String[] args) {
-        stage01.figure.Rectangle
         //| 6 | Классы и объекты | Создайте класс Rectangle с полями width, height, методами area() и perimeter(). |
         //| 7 | Поля/методы | В Rectangle добавьте счётчик созданных экземпляров (static int counter). |
         //| 8 | Конструкторы | Перегрузите конструкторы: без аргументов (1×1) и с двумя аргументами. |
