@@ -1,11 +1,9 @@
 package stage02;
 
-import org.junit.jupiter.api.Test;
 import stage02.dataTask.TaskStatus;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import stage02.main.Test09_InterfaceSegregation;
 
 public class Test08_TaskStatusTest {
     //| 8 | JUnit 5 — параметризованный тест | Протестируйте canStart() из п.7

@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import stage02.dataTask.Task;
 import stage02.main.Test05_TaskEquals;
-import stage02.main.Test07_TaskStatus;
 
 public class Test05_TaskEqualsTest {
 
