@@ -2,10 +2,17 @@ package stage03;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import stage03.main.Task03_Book;
 
 import java.util.HashSet;
 
 public class Task03_BookTest {
+
+    @Test
+    public void testMain() {
+        String[] args = {""};
+        Task03_Book.main(args);
+    }
 
     @Test
     public void equalsTest(){

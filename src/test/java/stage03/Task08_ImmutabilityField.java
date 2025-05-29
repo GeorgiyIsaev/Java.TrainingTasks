@@ -4,9 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Field;
-import java.util.Arrays;
 
-public class Task08 {
+public class Task08_ImmutabilityField {
 
 
     @Test

@@ -3,8 +3,16 @@ package stage03;
 import stage03.containers.MiniLRUCache;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import stage03.main.Task02_MiniLRUCache;
 
 public class Task02_MiniLRUCacheTest {
+
+    @Test
+    public void testMain() {
+        String[] args = {""};
+        Task02_MiniLRUCache.main(args);
+    }
+
     @Test
     public void add(){
         Integer addInt = 1;

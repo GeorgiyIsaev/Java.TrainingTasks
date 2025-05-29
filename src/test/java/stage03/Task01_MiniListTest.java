@@ -3,8 +3,15 @@ package stage03;
 import stage03.containers.MiniList;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import stage03.main.Task01_MiniList;
 
 public class Task01_MiniListTest {
+
+    @Test
+    public void testMain() {
+        String[] args = {""};
+        Task01_MiniList.main(args);
+    }
 
     @Test
     public void addToMiniList(){

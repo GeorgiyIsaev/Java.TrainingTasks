@@ -2,11 +2,18 @@ package stage03;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import stage03.main.Task05_Unmodifiable;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Task05_UnmodifiableTest {
+
+    @Test
+    public void testMain() {
+        String[] args = {""};
+        Task05_Unmodifiable.main(args);
+    }
 
     @Test
     public void copyUnmodifiableTest(){
